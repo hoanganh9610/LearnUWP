@@ -1,0 +1,17 @@
+﻿<UserControl
+    x:Class="DemoStyles.ucColor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DemoStyles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid>
+        <Button x:ConnectionId='2' x:Name="PurpleStyle" Content="Button" Height="30" Margin="10,72,0,0" VerticalAlignment="Top" Width="91"/>
+        <Button x:ConnectionId='3' x:Name="Button" Content="Button" Height="30" Margin="120,72,0,0" VerticalAlignment="Top" Width="91"/>
+    </Grid>
+</UserControl>
+
